@@ -1,0 +1,47 @@
+body{
+    background-image: url(images/fon.jpeg);
+    background-repeat: no-repeat;
+}
+#textplay{
+    text-align: center;
+    color: rgb(42, 3, 105);
+    text-shadow: 1px 2px 3px rgba(205, 241, 4, 0.809);
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgba(0, 187, 239, 0.104);
+    color: rgb(3, 56, 200);
+}
+h3 ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: rgba(0, 179, 255, 0);
+    margin: auto;
+    display: inline;
+    border-radius: 80px;
+    width: 250px;
+    height: 250px;
+    border: none;
+}
+button img{
+    width: 230px;
+    height: 230px;
+    border-radius: 80px;
+}
+button img:hover{
+    box-shadow: 5px 5px 30px rgb(0, 0, 255);
+    
+}
+#out{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+#out li{
+    list-style-type: none;
+}
